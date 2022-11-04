@@ -1,6 +1,4 @@
-import { Component, Input, OnInit } from '@angular/core';
-import { Store } from '@ngrx/store';
-import { count, Observable } from 'rxjs';
+import { Component, OnInit } from '@angular/core';
 import { CountService } from 'src/app/services/count.service';
 
 @Component({
