@@ -1,6 +1,7 @@
 import { BasketModel } from './../../../models/basket.model';
 import { Store } from '@ngrx/store';
 import { Component, OnInit } from '@angular/core';
+import { Stores } from 'src/app/state/stores';
 
 @Component({
   selector: 'app-navbar',
@@ -12,7 +13,7 @@ export class NavbarComponent implements OnInit {
   basketCount$ = 0;
   baskets$: BasketModel[] = []
   constructor(
-    private store: Store<{"baskets": BasketModel[]}>
+    private store: Store<Stores["baskets"]>
   ) {
     this.store.select("baskets").subscribe(res=> {
       this.basketCount$ = res.length;
@@ -21,5 +22,5 @@ export class NavbarComponent implements OnInit {
   }
 
   ngOnInit(): void {
-  } 
+  }
 }

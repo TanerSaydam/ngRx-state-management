@@ -1,0 +1,96 @@
+{
+  "baskets": [
+    {
+      "id": 1,
+      "quantity": 1,
+      "product": {
+        "name": "Domates",
+        "imageUrl": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQ1DCWATUDzqvulxHU7QH4UW8jPS8pNrYDYPpFA29LvsxgGELWtDw1-8lLcSbDnd2T3yJKDeZd9J3CpHxNPAR2Ip1ThR390x-s4WuqlOXN748NN2CiK_3-z&usqp=CAE",
+        "unitPrice": 19.99,
+        "stock": 100,
+        "id": 1
+      }
+    },
+    {
+      "id": 2,
+      "quantity": 1,
+      "product": {
+        "name": "Biber",
+        "imageUrl": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcR_udM-8N3TAsvDC0tlxIBPghDcxChMlR0_dA38SHUnRdV9Ul3abGrPl7VoZ5qXMQiFKTBubVMrl5tITy4WGlcY12939V0p3tv9HtN2A8jC4BfoIsliJvIN&usqp=CAE",
+        "unitPrice": 10,
+        "stock": 100,
+        "id": 2
+      }
+    },
+    {
+      "id": 3,
+      "quantity": 1,
+      "product": {
+        "name": "Salatalık",
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRxakWfH7wOSumWpvd7rtkNWERIHe1sPuwoaNPVFv61tiV1shZGpGLfMVSUCb_87c1m72VXdycDbxbmnuVhZ33MjgYEAPVDGzi13sSzjYl1-UrCJ-L-8Emsgw&usqp=CAE",
+        "unitPrice": 7.9,
+        "stock": 100,
+        "id": 3
+      }
+    },
+    {
+      "id": 4,
+      "quantity": 1,
+      "product": {
+        "name": "Karpuz",
+        "imageUrl": "https://cdn.dsmcdn.com/ty535/product/media/images/20220917/12/176458323/572406066/1/1_org_zoom.jpg",
+        "unitPrice": 66.4,
+        "stock": 100,
+        "id": 4
+      }
+    },
+    {
+      "id": 5,
+      "quantity": 1,
+      "product": {
+        "name": "Kiraz",
+        "imageUrl": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQ6c_MJD7lJVu9yPtVTtpTjLXq5OXctK-6GIzY2R93EeKZCfuZenIdTYBcRoZtbZfgiamb47B8hn7nyT6TPHBTA8NxY5rPS3g&usqp=CAE",
+        "unitPrice": 45,
+        "stock": 100,
+        "id": 5
+      }
+    }
+  ],
+  "products": [
+    {
+      "name": "Domates",
+      "imageUrl": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQ1DCWATUDzqvulxHU7QH4UW8jPS8pNrYDYPpFA29LvsxgGELWtDw1-8lLcSbDnd2T3yJKDeZd9J3CpHxNPAR2Ip1ThR390x-s4WuqlOXN748NN2CiK_3-z&usqp=CAE",
+      "unitPrice": 19.99,
+      "stock": 100,
+      "id": 1
+    },
+    {
+      "name": "Biber",
+      "imageUrl": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcR_udM-8N3TAsvDC0tlxIBPghDcxChMlR0_dA38SHUnRdV9Ul3abGrPl7VoZ5qXMQiFKTBubVMrl5tITy4WGlcY12939V0p3tv9HtN2A8jC4BfoIsliJvIN&usqp=CAE",
+      "unitPrice": 10,
+      "stock": 100,
+      "id": 2
+    },
+    {
+      "name": "Salatalık",
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRxakWfH7wOSumWpvd7rtkNWERIHe1sPuwoaNPVFv61tiV1shZGpGLfMVSUCb_87c1m72VXdycDbxbmnuVhZ33MjgYEAPVDGzi13sSzjYl1-UrCJ-L-8Emsgw&usqp=CAE",
+      "unitPrice": 7.9,
+      "stock": 100,
+      "id": 3
+    },
+    {
+      "name": "Karpuz",
+      "imageUrl": "https://cdn.dsmcdn.com/ty535/product/media/images/20220917/12/176458323/572406066/1/1_org_zoom.jpg",
+      "unitPrice": 66.4,
+      "stock": 100,
+      "id": 4
+    },
+    {
+      "name": "Kiraz",
+      "imageUrl": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQ6c_MJD7lJVu9yPtVTtpTjLXq5OXctK-6GIzY2R93EeKZCfuZenIdTYBcRoZtbZfgiamb47B8hn7nyT6TPHBTA8NxY5rPS3g&usqp=CAE",
+      "unitPrice": 45,
+      "stock": 100,
+      "id": 5
+    }
+  ]
+}
