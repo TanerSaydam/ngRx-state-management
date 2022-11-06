@@ -2,6 +2,7 @@ import { BasketModel } from './../../models/basket.model';
 import { ProductModel } from './../../models/product.model';
 import { Component, OnInit } from '@angular/core';
 import { Store } from '@ngrx/store';
+import * as BasketActions from '../../state/baskets/baskets.actions'
 
 @Component({
   selector: 'app-home',
@@ -12,8 +13,9 @@ export class HomeComponent implements OnInit {
 
   products: ProductModel[] = []
   constructor(
-    private store: Store
-  ) { }
+    private store: Store<{"baskets": BasketModel[]}>
+  ) {
+   }
 
   ngOnInit(): void {
     this.setProducts();
@@ -37,7 +39,7 @@ export class HomeComponent implements OnInit {
     basketModel.product = product;
     basketModel.quantity = 1;
 
-    this.store.dispatch({"type": "[Baskets] Add Count", "basket": basketModel})
+    this.store.dispatch(BasketActions.addBasket({basket: basketModel}))
   }
 
 }
