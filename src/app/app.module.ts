@@ -19,7 +19,7 @@ import { BasketsReducer } from './state/baskets/baskets.reducer';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    StoreModule.forRoot({"basketCount": BasketsReducer})
+    StoreModule.forRoot({"baskets": BasketsReducer})
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -3,6 +3,8 @@ import { createAction, props } from '@ngrx/store';
 import { createReducer, on } from '@ngrx/store';
 
 export const BasketsReducer = createReducer(
-  0,
-  on(createAction("[Baskets] Add Count"), (state) => state += 1)
+  [],
+  on(createAction("[Baskets] Add Count", props<{"basket": BasketModel}>()), (state, {basket}) => {
+    return [...state, basket]
+  })
 )

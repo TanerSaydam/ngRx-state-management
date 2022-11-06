@@ -1,3 +1,4 @@
+import { BasketModel } from './../../models/basket.model';
 import { ProductModel } from './../../models/product.model';
 import { Component, OnInit } from '@angular/core';
 import { Store } from '@ngrx/store';
@@ -31,8 +32,12 @@ export class HomeComponent implements OnInit {
     }
   }
 
-  addBasket(){
-    this.store.dispatch({"type": "[Baskets] Add Count"})
+  addBasket(product: ProductModel){
+    let basketModel = new BasketModel();
+    basketModel.product = product;
+    basketModel.quantity = 1;
+
+    this.store.dispatch({"type": "[Baskets] Add Count", "basket": basketModel})
   }
 
 }

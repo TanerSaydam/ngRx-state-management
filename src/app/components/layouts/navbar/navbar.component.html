@@ -9,11 +9,14 @@
         <li class="nav-item">
           <a class="nav-link active" aria-current="page" routerLink="/">Home</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Basket
-            <span class="badge bg-danger">{{basketCount$ | async}}</span>
+            <span class="badge bg-danger">{{basketCount$}}</span>
           </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" *ngFor="let basket of baskets$">{{basket.product.name}} - {{basket.quantity }}</a></li>
+          </ul>
         </li>
       </ul>
       <!-- <form class="d-flex" role="search">
